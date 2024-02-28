@@ -6,7 +6,7 @@ var config_data = `
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
-      "code": "t",
+      "code": "tn",
       "type": "number"
     },
     { "name": "Width",
