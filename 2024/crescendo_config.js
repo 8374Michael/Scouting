@@ -69,14 +69,8 @@ var config_data = `
         "clickRestriction": "one",
         "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
         "shape": "circle 5 black red true"
-      },
-      {
-        "name": "Test",
-        "code": "test",
-        "type": "text",
-        "size": 15,
-        "maxSize": 35
       }
+      
     ],
     "auton": [
       { 
