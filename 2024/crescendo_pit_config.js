@@ -86,7 +86,61 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    }
+    },
+    {
+            "name": "Can thier robot score on the Amp?",
+            "code": "ampScore",
+            "type": "bool"
+        },
+        {
+            "name": "Can thier robot score on the Speaker?",
+            "code": "speakScore",
+            "type": "bool"
+        },
+        {
+            "name": "Can thier robot hang?",
+            "code": "hang",
+            "type": "bool"
+        },
+        {
+            "name": "Hanger Type",
+            "code": "hangtyp",
+            "type": "text"
+        },
+        {
+            "name": "Can thier robot score Trap?",
+            "code": "trapScore",
+            "type": "bool"
+        },
+        {
+            "name": "Can thier robot go under the Stage?",
+            "code": "undStage",
+            "type": "bool"
+        },
+        {
+            "name": "How experienced is thier human player?",
+            "code": "humanSkill",
+            "type": "radio",
+            "choices": {
+                "1": "1<br>",
+                "2": "2<br>",
+                "3": "3<br>",
+                "4": "4<br>",
+                "5": "5<br>"
+            },
+            "defaultValue": "3"
+        },
+        {
+            "name": "How often can thier human player score the High Note?",
+            "code": "humanHigh",
+            "type": "text",
+            "size": 20
+        },
+        {
+            "name": "Do they have a communication system with thier human player?",
+            "code": "comms",
+            "type": "checkbox"
+        }
   ],
   "auton": [
   ],
