@@ -229,7 +229,7 @@ var config_data = `
         "maxSize": 55
       },
       { 
-        "name": "How many robots did they hang with
+        "name": "How many robots did they hang with",
         "code": "sr",
         "type": "radio",
         "choices": {
