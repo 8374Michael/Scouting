@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
+  "title": "Bongo Scout-Matic 2000",
   "page_title": "Crescendo",
   "pitConfig": "true",
   "prematch": [
