@@ -87,6 +87,21 @@ var config_data = `
         "name": "Speaker Scores",
         "code": "ass",
         "type": "counter"
+      },
+      { 
+        "name": "Did they need to use A-stop?",
+        "code": "stop",
+        "type": "bool"
+      },
+      { 
+        "name": "Did they pickup notes from the center line?",
+        "code": "cent",
+        "type": "bool"
+      },
+      { 
+        "name": "Did they pickup notes from their alliance wing?",
+        "code": "wing",
+        "type": "bool"
       }
     ],
     "teleop": [
@@ -141,7 +156,16 @@ var config_data = `
       { "name": "Note in Trap",
         "code": "nit",
         "type": "bool"
-      }
+      },
+      { "name": "Did they attempt to put note in trap",
+        "code": "anit",
+        "type": "bool"
+      },
+      { 
+        "name": "Did they hang on the same chain as another robot?",
+        "code": "hang",
+        "type": "bool"
+      },
     ],
     "postmatch": [
       { 
@@ -183,13 +207,21 @@ var config_data = `
         "defaultValue":"3"
       },
       { 
-        "name": "Died/Immobilized",
-        "code": "die",
-        "type": "bool"
+        "name": "Note Scoring Accuracy Rating",
+        "code": "sca",
+        "type": "radio",
+        "choices": {
+          "1": "1 (seldom)<br>",
+          "2": "2<br>",
+          "3": "3<br>",
+          "4": "4<br>",
+          "5": "5 (always)"
+        },
+        "defaultValue":"3"
       },
       { 
-        "name": "Tippy<br>(almost tipped over)",
-        "code": "tip",
+        "name": "Died/Immobilized",
+        "code": "die",
         "type": "bool"
       },
       { 
@@ -197,6 +229,7 @@ var config_data = `
         "code": "dn",
         "type": "bool"
       },
+      
       { 
         "name": "Make good<br>alliance partner?",
         "tooltip": "Would you want this robot on your alliance in eliminations?",
