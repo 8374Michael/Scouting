@@ -153,6 +153,17 @@ var config_data = `
         },
         "defaultValue": "x"
       },
+      { 
+        "name": "Where did they cycle through",
+        "code": "cyc",
+        "type":"radio",
+        "choices": {
+          "s": "Under Stage",
+          "o": "Outside the stage",
+          "n": "Bit of both"
+        },
+        "defaultValue": "n"
+      },
       { "name": "Note in Trap",
         "code": "nit",
         "type": "bool"
@@ -225,11 +236,16 @@ var config_data = `
         "type": "bool"
       },
       { 
+      "name": "How many points did the other alliance gain in penalties",
+      "code": "pnlt",
+      "type": "number",
+      "defaultValue": "0"
+      },
+      { 
         "name": "Dropped Notes (>2)",
         "code": "dn",
         "type": "bool"
       },
-      
       { 
         "name": "Make good<br>alliance partner?",
         "tooltip": "Would you want this robot on your alliance in eliminations?",
