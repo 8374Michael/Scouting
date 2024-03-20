@@ -17,7 +17,7 @@ var config_data = `
         "name": "Event",
         "code": "e",
         "type": "event",
-        "defaultValue": "MIBKN",
+        "defaultValue": "MILAN",
         "required": "true"
       },
       { 
@@ -87,21 +87,6 @@ var config_data = `
         "name": "Speaker Scores",
         "code": "ass",
         "type": "counter"
-      },
-      { 
-        "name": "Did they need to use A-stop?",
-        "code": "stop",
-        "type": "bool"
-      },
-      { 
-        "name": "Did they pickup notes from the center line?",
-        "code": "cent",
-        "type": "bool"
-      },
-      { 
-        "name": "Did they pickup notes from their alliance wing?",
-        "code": "wing",
-        "type": "bool"
       }
     ],
     "teleop": [
@@ -153,30 +138,10 @@ var config_data = `
         },
         "defaultValue": "x"
       },
-      { 
-        "name": "Where did they cycle through",
-        "code": "cyc",
-        "type":"radio",
-        "choices": {
-          "s": "Under Stage",
-          "o": "Outside the stage",
-          "n": "Bit of both"
-        },
-        "defaultValue": "n"
-      },
       { "name": "Note in Trap",
         "code": "nit",
         "type": "bool"
-      },
-      { "name": "Did they attempt to put note in trap",
-        "code": "anit",
-        "type": "bool"
-      },
-      { 
-        "name": "Did they hang on the same chain as another robot?",
-        "code": "hang",
-        "type": "bool"
-      },
+      }
     ],
     "postmatch": [
       { 
@@ -218,28 +183,14 @@ var config_data = `
         "defaultValue":"3"
       },
       { 
-        "name": "Note Scoring Accuracy Rating",
-        "code": "sca",
-        "type": "radio",
-        "choices": {
-          "1": "1 (seldom)<br>",
-          "2": "2<br>",
-          "3": "3<br>",
-          "4": "4<br>",
-          "5": "5 (always)"
-        },
-        "defaultValue":"3"
-      },
-      { 
         "name": "Died/Immobilized",
         "code": "die",
         "type": "bool"
       },
       { 
-      "name": "How many points did the other alliance gain in penalties",
-      "code": "pnlt",
-      "type": "number",
-      "defaultValue": "0"
+        "name": "Tippy<br>(almost tipped over)",
+        "code": "tip",
+        "type": "bool"
       },
       { 
         "name": "Dropped Notes (>2)",
