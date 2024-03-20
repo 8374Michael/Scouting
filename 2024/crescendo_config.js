@@ -225,7 +225,7 @@ var config_data = `
       },
       { 
         "name": "How many robots did they hang with",
-        "code": "sr",
+        "code": "HW",
         "type": "radio",
         "choices": {
           "1": "Solo<br>",
