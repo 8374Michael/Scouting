@@ -224,7 +224,7 @@ var config_data = `
         "maxSize": 55
       },
       { 
-        "name": "How many robots did they hang with",
+        "name": "How many robots did they hang with?",
         "code": "HW",
         "type": "radio",
         "choices": {
@@ -249,7 +249,7 @@ var config_data = `
         "defaultValue":"3"
       },
       {
-      "name": "Where do they pick up notes in auto",
+      "name": "Where do they pick up notes in auto?",
         "code": "skjgyutfi",
         "type": "radio",
         "choices": {
