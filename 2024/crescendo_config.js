@@ -210,7 +210,7 @@ var config_data = `
         "size": 15,
         "maxSize": 55
       },
-      "Custom Questions": [
+     
       {
         "name": "Did they use the A-Stop?",
         "code": "astop",
@@ -234,7 +234,41 @@ var config_data = `
           "4": "Did Not Hang<br>"
         },
         "defaultValue":"4"
+      },
+      {
+      "name": "Note Scoring Accuracy Rating",
+        "code": "sca",
+        "type": "radio",
+        "choices": {
+          "1": "1 (seldom)<br>",
+          "2": "2<br>",
+          "3": "3<br>",
+          "4": "4<br>",
+          "5": "5 (always)"
+        },
+        "defaultValue":"3"
+      },
+      "name": "Where do they pick up notes in auto",
+        "code": "sca",
+        "type": "radio",
+        "choices": {
+          "w": "Wing",
+          "m": "Mid Line",
+          "b": "Both"
+          "n": "No Notes Acquired"
+        },
+        "defaultValue":"4"
+      },
+      { 
+        "name": "Where did they cycle through",
+        "code": "cyc",
+        "type":"radio",
+        "choices": {
+          "s": "Under Stage",
+          "o": "Outside the stage",
+          "n": "Bit of both"
+        },
+        "defaultValue": "n"
       }
-      ],
     ]
   }`;
