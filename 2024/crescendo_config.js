@@ -210,6 +210,7 @@ var config_data = `
         "size": 15,
         "maxSize": 55
       },
+      "Custom Questions": [
       {
         "name": "Did they use the A-Stop?",
         "code": "astop",
@@ -234,5 +235,6 @@ var config_data = `
         },
         "defaultValue":"4"
       }
+      ],
     ]
   }`;
