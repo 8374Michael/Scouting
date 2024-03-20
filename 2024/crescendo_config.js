@@ -255,7 +255,7 @@ var config_data = `
         "choices": {
           "w": "Wing",
           "m": "Mid Line",
-          "b": "Both"
+          "b": "Both",
           "n": "No Notes Acquired"
         },
         "defaultValue":"4"
