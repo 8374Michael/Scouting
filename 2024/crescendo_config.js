@@ -248,6 +248,7 @@ var config_data = `
         },
         "defaultValue":"3"
       },
+      {
       "name": "Where do they pick up notes in auto",
         "code": "sca",
         "type": "radio",
