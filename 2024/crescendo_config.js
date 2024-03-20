@@ -250,7 +250,7 @@ var config_data = `
       },
       {
       "name": "Where do they pick up notes in auto",
-        "code": "sca",
+        "code": "skjgyutfi",
         "type": "radio",
         "choices": {
           "w": "Wing",
