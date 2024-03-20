@@ -175,9 +175,9 @@ var config_data = `
         "type": "radio",
         "choices": {
           "1": "1 (slow)<br>",
-          "2": "2<br>",
-          "3": "3<br>",
-          "4": "4<br>",
+          "2": "2 <br>",
+          "3": "3 <br>",
+          "4": "4 <br>",
           "5": "5 (fast)"
         },
         "defaultValue":"3"
@@ -240,11 +240,11 @@ var config_data = `
         "code": "sca",
         "type": "radio",
         "choices": {
-          "1": "1 (At Least They Tried)<br>",
-          "2": "2 (seldom)<br>",
-          "3": "3 (MID)<br>",
-          "4": "4 (Most of the Time) <br>",
-          "5": "5 (Never Miss)"
+          "1": "At Least They Tried)<br>",
+          "2": "Seldom<br>",
+          "3": "3 MID<br>",
+          "4": "Most of the Time <br>",
+          "5": "Never Miss"
         },
         "defaultValue":"3"
       },
